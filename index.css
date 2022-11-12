@@ -1,0 +1,41 @@
+
+table {
+    border-collapse: collapse;
+}
+th {
+    background-color:green;
+    Color:white;
+}
+th, td {
+   /* width:150px;
+    text-align:center;
+    border:1px solid black;*/
+    padding:5px;
+    display: block;
+}
+tr{
+    border: 2px solid black;
+}
+.geeks {
+    border-right:hidden;
+}
+.gfg {
+    border-collapse:separate;
+    border-spacing:0 20px;
+}
+h1 {
+    color:green;
+}
+tr:nth-child(odd){
+    background-color:rgb(119, 119, 193);
+    color: black;
+}
+
+tr:nth-child(even){
+    background-color: rgb(13, 13, 74);
+    color: aliceblue;
+}
+tr:hover{
+    background-color:rgba(195, 183, 183, 0.5);
+    color:black;
+}
